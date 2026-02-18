@@ -1,13 +1,13 @@
-# Hackathon Submission Guidelines
+# Project Guidelines
 
 ## Overview
-This is a hackathon to build an Agentic RAG Chatbot. 
+This is an implementation of an Agentic RAG Chatbot.
 The goal is to implement File-grounded Q&A, Durable Memory, and Safe Tool execution.
 
 ## Rules
 1. Any language is allowed.
-2. Submission must rely on `make sanity` for verification.
-3. Video walkthrough is required.
+2. Verification relies on Standard Verification (tests/sanity).
+3. Documentation is required.
 
 ## Memory Features
 The bot should remember user details like "User is a specific role" and company details like "Project X status".

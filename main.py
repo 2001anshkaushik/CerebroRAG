@@ -31,8 +31,8 @@ def sanity(args):
     print("Starting Sanity Check...")
     
     # 1. Ingest Sample
-    # Note: Sample docs are in sample_docs/
-    sample_path = os.path.join(Config.BASE_DIR, "sample_docs", "system_guide.txt")
+    # Note: Sample docs are in docs/
+    sample_path = os.path.join(Config.BASE_DIR, "docs", "getting_started.txt")
     if os.path.exists(sample_path):
         print(f"Ingesting sample: {sample_path}")
         retriever = HybridRetriever()
