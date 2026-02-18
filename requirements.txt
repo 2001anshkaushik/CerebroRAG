@@ -1,0 +1,13 @@
+langchain
+langchain_openai
+langchain_chroma
+langchain_community
+chromadb
+python-dotenv
+numpy
+tiktoken
+pypdf
+sentence-transformers
+rank_bm25
+unstructured
+markdown
